@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Forbidding (403){% endblock title%}
+
+{% block content %}
+<h1>Forbidden</h1>
+<p>Uh-OH</p>
+<a href="{% url 'home' %}">Click Here</a> to go to the home page.
+{% endblock content %}
